@@ -15,7 +15,7 @@ export default function Home() {
                 headerStyle: { backgroundColor: COLORS.lightWhite, elevation: 0 },
                 headerShadowVisible: false,
                 headerLeft: () => <ScreenHeaderBtn iconUrl={icons.menu} dimension='60%' />,
-                headerRight: () => <ScreenHeaderBtn iconUrl={icons.profile} dimension='100%' />,
+                headerRight: () => <ScreenHeaderBtn iconUrl={images.profile} dimension='100%' />,
                 headerTitle: ''
             }}
             />
