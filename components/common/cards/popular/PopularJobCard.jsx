@@ -4,11 +4,11 @@ import styles from './popularjobcard.style'
 
 import {checkImageURL} from '../../../../utils'
 
-const PopularJobCard = ({item, selectedJob, handlePress}) => {
+const PopularJobCard = ({item, selectedJob, handleCardPress}) => {
   return (
     <TouchableOpacity 
       style={styles.container(selectedJob, item)}
-      onPress={() => handlePress(item)}
+      onPress={() => handleCardPress(item)}
     >
       <TouchableOpacity
         style={styles.logoContainer(selectedJob, item)}
